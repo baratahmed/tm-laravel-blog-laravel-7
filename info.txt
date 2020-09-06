@@ -1,0 +1,10 @@
+php artisan storage:link
+
+create a file in public directory called symlinkcreate.php in live server
+
+
+write this code
+
+<?php
+
+symlink('/home/cherishe/tmblog/storage/app/public','/home/cherishe/public_html/storage');
